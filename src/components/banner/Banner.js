@@ -1,16 +1,17 @@
 import React from 'react';
 import banner1 from '../../folder/banner.PNG';
+import './Banner.css';
 const Banner = () => {
     return (
-        <div>
+        <div className='banner-bg'>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
     <div class="container">
   <div class="row">
     <div class="col-12 col-md-12 col-sm-12 col-lg-6">
-      <h2 className='pt-5'>Build Your Dream Website With OMRhost</h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+      <h1 className='pt-5 fw-bold fs-1 pb-3'>Build Your Dream Website With OMRhost</h1>
+      <p className='pb-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
       <div>
       <button className='btn btn-primary text-white'>Learn More <i class="fa-solid fa-arrow-right-long px-2"></i></button>
       </div>

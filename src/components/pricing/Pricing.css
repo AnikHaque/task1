@@ -1,0 +1,16 @@
+.list{
+    list-style: none;
+}
+.price-icon{
+    margin-top: -40px;
+    margin-left: 170px;
+    
+}
+.price-i{
+    border-radius: 50%;
+    font-size: 30px;
+}
+.pricing{
+    background-color: #F8F9F9;
+    padding: 100px;
+}

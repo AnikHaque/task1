@@ -1,0 +1,11 @@
+.search-input1{
+    margin-left: 300px;
+    width: 50%;
+    height: 50px;
+    border: 7px solid blue;
+}
+.search-input2{
+    height: 50px;
+    width:10%;
+    border: 7px solid blue;
+}

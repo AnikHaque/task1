@@ -4,7 +4,7 @@ const Navigation = () => {
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-light p-3">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="#"> <i class="fa-solid fa-list-ul text-primary"></i> <b>OMR<span className='text-primary'>HOST</span></b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
